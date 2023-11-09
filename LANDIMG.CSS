@@ -1,0 +1,91 @@
+/* Reset some default styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: url('gym.jpg'); 
+    background-size: cover;
+    background-position: center;
+    text-align: left;
+    color: #040404;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #b68d8d;
+  
+}
+
+header {
+    background-color: #dd7676;
+    color: #fff;
+    padding: 20px 0;
+}
+
+nav {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+section {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px;
+}
+
+.hero {
+    background-image: url('gym-image.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: #fff;
+}
+
+.hero-text {
+    text-shadow: 2px 2px 4px rgba(233, 221, 221, 0.5);
+}
+
+.cta-button {
+    background-color: #e9e6e5;
+    color: #0f0a0a;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.cta-button:hover {
+    background-color: #d4593b;
+}
+
+/* Define styles for other sections as needed */
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
